@@ -22,13 +22,13 @@ class ExampleWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return ScaffoldPage(
       content: Column(children: [
-        Text('Good morning'),
+        Text('Correct font'),
         TextButton(
-          child: Text('This is a button'),
+          child: Text('Not the correct font (TextButton)'),
           onPressed: () {},
         ),
         Button(
-          child: Text('Another button'),
+          child: Text('Not the correct font (Button)'),
           onPressed: () {},
         )
       ]),
